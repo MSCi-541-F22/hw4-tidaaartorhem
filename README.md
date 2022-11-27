@@ -31,8 +31,8 @@ Step 2 --> By now the 2 folders of documents and documentsStem should be there i
    python3 evaluate.py --qrel=./qrels/LA-only.trec8-401.450.minus416-423-437-444-447.txt --output_directory=./ --results=results-files/
    
    -------Now you should get in the root folder you should have these files 
-      ------------  average_measures.csv -- performance using the same effectiveness measures used in HW 3
-      ------------  summary_statistics.csv -- statistical significance testing
+      ------------  measures_average.csv -- performance using the same effectiveness measures used in HW 3
+      ------------  statistics.csv -- statistical significance testing
       -----------   hw4-bm25-baseline-asmehrot.csv -- precision scores for baseline 
       -----------   hw4-bm25-baseline-asmehrot.csv -- precision scores for stem 
       
